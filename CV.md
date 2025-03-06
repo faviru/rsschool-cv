@@ -3,7 +3,7 @@
 #### Contacts
 - **e-mail**: katerina0708@gmail.com
 - **GitHub**: https://github.com/faviru
-- **Telegram**: t.me/Faviruu
+- **Telegram**: https://t.me/Faviruu
 
 ---
 #### About myself
