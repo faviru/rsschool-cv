@@ -24,8 +24,24 @@ Among my strengths I can note a large amount of free time and a desperate desire
 
 ---
 
-#### [Code examples](https://github.com/faviru/2547343-six-cities-16)
+#### Code examples
 
+```typecript
+/*Валидация ввода пароля*/
+const [warningVisible, setWarningVisible] = useState(false);
+const isPasswordInvalid = (pass: string) => pass.length <= 2 || !regexForPassword.test(pass);
+
+const handlePasswordChange = (evt: ChangeEvent<HTMLInputElement>) => {
+  const value = evt.target.value.replace(/\s+/g, '');
+
+  evt.target.value = value;
+  if (isPasswordInvalid(value)) {
+    setWarningVisible(true);
+  } else {
+    setWarningVisible(false);
+  }
+};
+```
 ---
 
 #### Expirience
