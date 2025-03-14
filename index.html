@@ -15,20 +15,17 @@
 
 <body>
   <main class="page">
-    <!-- <section class="page__wrapper"> -->
     <section class="main">
-      <div class="main-header">
+      <header class="main-header">
         <div class="avatar avatar--mob">
-          <div class="avatar__wrapper">
-            <img src="img/avatar.jpg" class="avatar__img">
-          </div>
+          <img src="img/avatar.jpg" class="avatar__img" alt="Avatar">
         </div>
 
         <div class="main-header__wrapper">
           <h1>Ekaterina Novitskaya</h1>
-          <p>Junior JS Developer</p>
+          <p> JS Developer</p>
         </div>
-      </div>
+      </header>
       <section class="block">
         <div class="block__wrapper">
           <div class="title">
@@ -38,6 +35,11 @@
           <p class="text">At my last job, I was developing extensions for a Qlick Sense analytics system. The work
             involved visualizing data in the form of various charts such as columns, pie, waterfall and many others.
             Since the area is quite specialized, I want to expand my skills to a complete front-end developer.</p>
+
+          <svg class="logo">
+            <use xlink:href="./img/test.svg#HeaderLogo"></use>
+          </svg>
+
         </div>
       </section>
       <section class="block">
@@ -64,7 +66,9 @@
       <section class="block">
         <div class="block__wrapper">
           <div class="title">
-            <span class="title__icon title__icon--skills"></span>
+            <svg class="title__icon" viewBox="0 0 24 24" width="24" height="24">
+              <use xlink:href="img/icon-sprite.svg#skills"></use>
+            </svg>
             <h2>Skills</h2>
           </div>
           <ul class="progress-list">
@@ -108,12 +112,10 @@
         </div>
       </section>
     </section>
-    <section class="side">
+    <aside class="side">
       <div class="side__triangle"></div>
       <div class="avatar avatar--desk">
-        <div class="avatar__wrapper">
-          <img src="img/avatar.jpg" class="avatar__img">
-        </div>
+        <img src="img/avatar.jpg" class="avatar__img" alt="Avatar">
       </div>
 
       <section class="block">
@@ -125,15 +127,15 @@
           <ul class="contact-list">
             <li class="item">
               <span class="contact__icon contact__icon--email"></span>
-              <p class="item__name">katerina0708@gmail.com</p>
+              <a href="mailto:katerina0708@gmail.com" class="item__name">katerina0708@gmail.com</a>
             </li>
             <li class="item">
               <span class="contact__icon contact__icon--github"></span>
-              <p class="item__name">https://github.com/faviru</p>
+              <a href="https://github.com/faviru" class="item__name">https://github.com/faviru</a>
             </li>
             <li class="item">
               <span class="contact__icon contact__icon--telegram"></span>
-              <p class="item__name">https://t.me/Faviruu</p>
+              <a href="https://t.me/Faviruu" class="item__name">https://t.me/Faviruu</a>
             </li>
           </ul>
         </div>
@@ -176,8 +178,7 @@
         </div>
       </section>
 
-    </section>
-    <!-- </section> -->
+    </aside>
   </main>
 </body>
 
