@@ -1,15 +1,17 @@
-Ekaterina Novitskaya
+### Ekaterina Novitskaya
+---
+#### Contacts
+- **e-mail**: katerina0708@gmail.com
+- **GitHub**: https://github.com/faviru
+- **Telegram**: https://t.me/Faviruu
 
- Contacts
-- e-mail: katerina0708@gmail.com
-- GitHub: https://github.com/faviru
-- Telegram: https://t.me/Faviruu
-
-About myself
+---
+#### About myself
 
 At my last job, I was developing extensions for a Qlick Sense analytics system. The work involved visualizing data in the form of various charts such as columns, pie, waterfall and many others. Since the area is quite specialized, I want to expand my skills to a complete front-end developer.
 
-Skills
+---
+#### Skills
 - HTML
 - CSS
 - JavaScript
@@ -17,9 +19,11 @@ Skills
 - Git
 - Figma
 
-Code examples
+---
 
-typecript
+#### Code examples
+
+```typecript
 /*Валидация ввода пароля*/
 const [warningVisible, setWarningVisible] = useState(false);
 const isPasswordInvalid = (pass: string) => pass.length <= 2 || !regexForPassword.test(pass);
@@ -34,13 +38,17 @@ const handlePasswordChange = (evt: ChangeEvent<HTMLInputElement>) => {
     setWarningVisible(false);
   }
 };
+```
+---
 
-Expirience
+#### Expirience
 
 - 2016 - Paragon Software - layout designer
 - (2017-2022) - ATK Group - JS developer
 
-Education
+---
+
+#### Education
 
 1. Bachelor, MGUT Imeni K. G. Razumovskogo
     - computer science
@@ -49,7 +57,9 @@ Education
     - Basic JavaScript
     - React. Development of complex client applications
 
-Languages
+---
+
+#### Languages
 
 - Russian (native)
 - English (B1)
