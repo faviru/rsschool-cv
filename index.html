@@ -11,61 +11,70 @@
 <body>
   <h1>Ekaterina Novitskaya</h1>
 
-  Contacts
-  - e-mail: katerina0708@gmail.com
-  - GitHub: https://github.com/faviru
-  - Telegram: https://t.me/Faviruu
+  <h2>Contacts</h2>
+  <p>e-mail: katerina0708@gmail.com</p>
+  <p>GitHub: https://github.com/faviru</p>
+  <p>Telegram: https://t.me/Faviruu</p>
 
-  About myself
+  <h2>About myself</h2>
+  <p>At my last job, I was developing extensions for a Qlick Sense analytics system. The work involved visualizing data
+    in the form of various charts such as columns, pie, waterfall and many others. Since the area is quite specialized,
+    I want to expand my skills to a complete front-end developer.
+  </p>
 
-  At my last job, I was developing extensions for a Qlick Sense analytics system. The work involved visualizing data in
-  the form of various charts such as columns, pie, waterfall and many others. Since the area is quite specialized, I
-  want
-  to expand my skills to a complete front-end developer.
+  <h2>Skills</h2>
+  <ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+    <li>React.js, Redux (beginner)</li>
+    <li>Git</li>
+    <li>Figma</li>
+  </ul>
 
-  Skills
-  - HTML
-  - CSS
-  - JavaScript
-  - React.js, Redux (beginner)
-  - Git
-  - Figma
-
-  Code examples
-
-  ```typecript
+  <h2>Code examples</h2>
+  <pre>
+  typecript
+  <code>
   /*Валидация ввода пароля*/
   const [warningVisible, setWarningVisible] = useState(false);
-  const isPasswordInvalid = (pass: string) => pass.length <= 2 || !regexForPassword.test(pass); const
-    handlePasswordChange=(evt: ChangeEvent<HTMLInputElement>) => {
-    const value = evt.target.value.replace(/\s+/g, '');
+  const isPasswordInvalid = (pass: string) => pass.length &lt;= 2 || !regexForPassword.test(pass); const
+    handlePasswordChange = (evt: ChangeEvent&lt;HTMLInputElement&gt;) => {
+      const value = evt.target.value.replace(/\s+/g, '');
 
-    evt.target.value = value;
-    if (isPasswordInvalid(value)) {
-    setWarningVisible(true);
-    } else {
-    setWarningVisible(false);
-    }
+      evt.target.value = value;
+      if (isPasswordInvalid(value)) {
+        setWarningVisible(true);
+      } else {
+        setWarningVisible(false);
+      }
     };
-    ```
-    Expirience
+  </code>
+  </pre>
 
-    - 2016 - Paragon Software - layout designer
-    - (2017-2022) - ATK Group - JS developer
+  <h2>Expirience</h2>
+  <ul>
+    <li>2016 - Paragon Software - layout designer</li>
+    <li>(2017-2022) - ATK Group - JS developer</li>
+  </ul>
 
-    Education
+  <h2>Education</h2>
+  <ul>
+    <li>Bachelor, MGUT Imeni K. G. Razumovskogo
+      <p>- computer science</p>
+    </li>
+    <li>HTML Academy
+      <p>- Advanced HTML and CSS</p>
+      <p>- Basic JavaScript</p>
+      <p>- React. Development of complex client applications</p>
+    </li>
+  </ul>
 
-    1. Bachelor, MGUT Imeni K. G. Razumovskogo
-    - computer science
-    2. HTML Academy
-    - Advanced HTML and CSS
-    - Basic JavaScript
-    - React. Development of complex client applications
-
-    Languages
-
-    - Russian (native)
-    - English (B1)
+  <h2>Languages</h2>
+  <ul>
+    <li>Russian (native)</li>
+    <li>English (B1)</li>
+  </ul>
 </body>
 
 </html>
