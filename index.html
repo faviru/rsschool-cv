@@ -38,8 +38,8 @@
   <code>
   /*Валидация ввода пароля*/
   const [warningVisible, setWarningVisible] = useState(false);
-  const isPasswordInvalid = (pass: string) => pass.length &lt;= 2 || !regexForPassword.test(pass); const
-    handlePasswordChange = (evt: ChangeEvent&lt;HTMLInputElement&gt;) => {
+  const isPasswordInvalid = (pass: string) =&gt; pass.length &lt;= 2 || !regexForPassword.test(pass); const
+    handlePasswordChange = (evt: ChangeEvent&lt;HTMLInputElement&gt;) =&gt; {
       const value = evt.target.value.replace(/\s+/g, '');
 
       evt.target.value = value;
