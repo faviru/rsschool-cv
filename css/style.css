@@ -232,6 +232,23 @@ li {
   position: relative;
   height: 100%;
   background-color: var(--aсcent-color);
+  width: 50%;
+}
+
+.progress-bar--full {
+  width: 100%;
+}
+
+.progress-bar--two-thirds {
+  width: 66%;
+}
+
+.progress-bar--half {
+  width: 50%;
+}
+
+.progress-bar--third {
+  width: 30%;
 }
 
 .side {
